@@ -1,0 +1,39 @@
+.bg-color{
+    background-color: rgba(62, 62, 64, 0.466);
+}
+
+.content{
+    height: 4rem;
+}
+.content h1{
+    color: white;
+    font-size: 1rem;
+}
+
+.content i{
+    color: white;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+
+.bg-green{
+    background-color: rgb(10, 196, 106);
+}
+
+.content-img img{
+    min-width: 0;
+    max-width: 250px;
+    padding: 1rem 0.5rem;
+}
+
+.star i{
+    color: white;
+    font-size: 2rem;
+    padding-inline: 0.8rem;
+}
+
+.star .line{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
