@@ -57,3 +57,7 @@
     height: 300px;
     background-color: rgb(236, 85, 128);
 }
+
+.bg-darkgrey{
+    background-color: darkslategrey;
+}
