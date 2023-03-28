@@ -1,16 +1,22 @@
-.bg-color{
+.bg-grey{
     background-color: rgba(62, 62, 64, 0.466);
 }
 
-.content{
+.nav-content{
     height: 4rem;
 }
-.content h1{
+.nav-content h1{
     color: white;
     font-size: 1rem;
 }
 
-.content i{
+.nav-content li{
+    list-style: none;
+   text-decoration: none; 
+   color: white;
+}
+
+.nav-content i{
     color: white;
     font-size: 1rem;
     border: 1px solid white;
