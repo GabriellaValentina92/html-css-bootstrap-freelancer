@@ -12,62 +12,50 @@
 </head>
 <body>
 
-    <section class="bg-grey">
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-12 d-xs-block d-sm-block d-md-none d-lg-none">
-                    <div class="nav-content d-flex align-items-center justify-content-between">
-                        <h1>
-                            START BOOTSTRAP
-                        </h1>
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                </div>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top bg-nav">
+            <div class="container">
+              <a class="navbar-brand text-light" href="#">Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </nav>
+    </header>
 
-            <div class="row justify-content-md-center">
-                <div class="col-12 d-none d-sm-none d-md-block d-lg-block">
-                    <div class="nav-content d-flex align-items-center justify-content-between">
-                        <h1>
-                            START BOOTSTRAP
-                        </h1>
-                        
-                        <ul class="d-flex align-items-center justify-content-between">
-                            <li class="p-3">PORTFOLIO</li>
-                            <li class="p-3"> ABOUT</li>
-                            <li class="p-3"> CONTACT</li>
-                        </ul>
-                    </div>
-                </div>
-
-        </div>
-    </section>
-
-    <section class="bg-green">
+    <section class="bg-green my-5">
         <div class="container text-center">
-            <div class="col">
-                <div class="content-img p-1">
-                    <img src="img/avatar.svg" alt="">
-                </div>
+            <div class="content-img pt-3 pb-1">
+                <img src="img/avatar.svg" alt="">
             </div>
-            <div class="col">
-                <div class="maintitle p-1">
-                    START BOOTSTRAP
-                </div>
+        
+            <div class="maintitle p-1">
+                START BOOTSTRAP
             </div>
-            <div class="col">
-                <div class="star d-flex align-items-center justify-content-center p-1">
-                    <div class="line"></div>
-                    <div>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="line"></div>
+        
+            <div class="star d-flex align-items-center justify-content-center p-1">
+                <div class="line"></div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
                 </div>
+                <div class="line"></div>
             </div>
-            <div class="col">
-                <div class="job p-1">
-                    GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
-                </div>
+        
+            <div class="job pt-1 pb-3">
+                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
             </div>
         </div>
     </section>
@@ -83,23 +71,35 @@
                 <div class="line l-black"></div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 align-items-center py-3">
-                <div class="col my-2">
-                    <div class="contentblock"></div>
+                <div class="col">
+                    <div class="card-img my-2">
+                        <img src="img/cabin.png" alt="">
+                    </div>
                 </div>
-                <div class="col my-2">
-                    <div class="contentblock"></div>
+                <div class="col">
+                    <div class="card-img my-2">
+                        <img src="img/cake.png" alt="">
+                    </div>
                 </div>
-                <div class="col my-2">
-                    <div class="contentblock"></div>
+                <div class="col">
+                    <div class="card-img my-2">
+                        <img src="img/circus.png" alt="">
+                    </div>
                 </div>
-                <div class="col my-2">
-                    <div class="contentblock"></div>
+                <div class="col">
+                    <div class="card-img my-2">
+                        <img src="img/game.png" alt="">
+                    </div>
                 </div>
-                <div class="col my-2">
-                    <div class="contentblock"></div>
+                <div class="col">
+                    <div class="card-img my-2">
+                        <img src="img/safe.png" alt="">
+                    </div>
                 </div>
-                <div class="col my-2">
-                    <div class="contentblock"></div>
+                <div class="col">
+                    <div class="card-img my-2">
+                        <img src="img/submarine.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,37 +107,33 @@
 
     <section class="bg-green">
         <div class="container text-center">
-            <div class="col"> 
-                <h1>ABOUT</h1>
-            </div>
-            <div class="col">
-                <div class="star d-flex align-items-center justify-content-center p-1">
-                    <div class="line"></div>
-                    <div>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="line"></div>
+            <h1 class="text-light pt-4">ABOUT</h1>
+            <div class="star d-flex align-items-center justify-content-center p-1">
+                <div class="line"></div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
                 </div>
+                <div class="line"></div>
             </div>
             
            
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
-                <div class="col py-2">
-                    <div class="text">
+                <div class="col">
+                    <div class="text text-light py-2 px-4">
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, autem cupiditate? Labore, illo quam. Odio facere officia, quam commodi voluptates esse incidunt voluptatem mollitia quisquam similique quibusdam, quidem cumque et?</p>
                     </div>
                 </div>
 
-                <div class="col py-2">
-                    <div class="text">
+                <div class="col">
+                    <div class="text text-light py-2 px-4">
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, autem cupiditate? Labore, illo quam. Odio facere officia, quam commodi voluptates esse incidunt voluptatem mollitia quisquam similique quibusdam, quidem cumque et?</p>
                     </div>
                 </div>
             </div>
                 
             <div class="row">
-                <div class="col-12 py-1">
-                    <div class="btn"> Download</div>
+                <div class="col-12 py-1 mb-3">
+                    <button type="button" class="btn btn-outline-secondary text-light"> <i class="fa-solid fa-download download-icon" style="color: #ffffff;"></i>download</button>
                 </div>    
             </div>
         </div>
