@@ -139,37 +139,42 @@
         </div>
     </section>
 
-    <section>
+    <section class="mb-5">
         <div class="container">
-            <div class="row row-cols-1 mt-4">
-                <div class="col text-center">
-                    <h2> Contact me</h2>
+            <h2 class="text-center"> Contact me</h2>
+            <div class="star d-flex align-items-center justify-content-center p-1">
+                <div class="line l-black"></div>
+                <div>
+                    <i class="fa-solid fa-star star-black"></i>
                 </div>
-                <div class="col">
-                    <div class="star d-flex align-items-center justify-content-center p-1">
-                        <div class="line l-black"></div>
-                        <div>
-                            <i class="fa-solid fa-star star-black"></i>
+                <div class="line l-black"></div>
+            </div>
+
+            <div class="row">
+                <div class="col col-7 offset-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="form-label" placeholder="Name">Name</label>
+                            <input type="text" class="form-control" id="first-name">
                         </div>
-                        <div class="line l-black"></div>
-                    </div>
-                </div>
-                <div class="col">
-                    <h3> Name</h3> 
-                </div>
-                <div class="col">
-                    <h3> Email Address</h3>  
-                </div>
-                <div class="col">
-                    <h3> Phone Number</h3>
-                </div>
-                <div class="col">
-                    <h3> Message</h3>
-                </div>
-                <div class="col">
-                    <div class="btn">Send</div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                        <div class="mb-3">
+                            <label for="phone-num" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phone-num">
+                        </div>
+                            <label for="message" class="form-label">Message</label>
+                            <input type="text" class="form-control" id="message">
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-color text-light text-center mt-3">Send</button>
+                        </div>
+                    </form>
                 </div>
             </div>
+                
         </div>
     </section>
 
