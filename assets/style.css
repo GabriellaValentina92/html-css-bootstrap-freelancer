@@ -34,12 +34,39 @@
 
 .card-img img{
     width:100%;
+    display: block;
 }
+
+.card-img{
+    position: relative;
+}
+
+.plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plus a{
+    color: white;
+    font-size: 8rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+.plus:hover a{
+    opacity: 1;
+}  
 
 .download-icon{
     padding-right: 0.5rem;
 }
 
 .bg-darkgrey{
-    background-color: darkslategrey;
+    background-color: #3A546D;
+}
+
+.bg-grey{
+    background-color: #2C3E50;
 }
